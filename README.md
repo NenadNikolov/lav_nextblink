@@ -1,0 +1,2 @@
+# lav_nextblink
+inicijalno
