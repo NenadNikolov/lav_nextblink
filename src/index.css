@@ -1,51 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* base styles */
-* {
+*{
   margin: 0;
-  font-family: "Quicksand";
-  color: #333;
+  font-family: Raleway;
+  color: black;
 }
+
 .navbar {
-  padding: 20px;
+  padding: 40px;
   display: flex;
   align-items: center;
-  max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
 }
-.navbar h1 {
-  color: #f1356d;
-}
+
 .navbar .links {
-  margin-left: auto;
+  margin-left:auto;
+  margin-right: auto;    
+}
+.navbar .links :hover{
+ background-color: #0167FF;
+}
+.navbar img{
+  max-width: 100px;
+  max-height: 100px;
+  margin: -20px;
+  padding-left: 50%;
+
 }
 .navbar a {
-  margin-left: 16px;
+  margin-left: 35px;
   text-decoration: none;
   padding: 6px;
+  font-weight: 500;
+  font-size: 18px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color:  white;
+  background-color: #0167FF;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin:  auto;
+  padding: 70px;
+  margin-left: 1%;
+  background-image: url("D:\js projekti nextblink\lav\src\naslovna.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 630px 1080px;
+  
+}
+.glavniDiv{
+
+}
+.glavniDiv h1{
+ 
+  font-size: 50px;
+  font-weight: bold;
+  color: #1A1A1A;
+  max-width: 60%;
+}
+.glavniDiv .glavniTekst
+{
+  font-size: 22px;
+  padding-top: 5%;
+  font-weight: 500;
+  max-width: 60%;
 }
 
-.blog-preview{
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+.glavniDiv .glavnaslika
+{
+   
+  max-width: 50%;
+  max-height: 50%;
 }
+.glavniDiv .saznajButton
+{
+  margin-top: 7%;
+  width: 341px;
+  height:60px;
+  color: white;
+  background-color: #0167FF;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
 
-.blog-preview:hover{
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-}
-
-.blog-preview h2{
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
 }
