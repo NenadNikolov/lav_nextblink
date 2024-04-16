@@ -7,7 +7,7 @@ const pocetna = () => {
     return (  
         <div className="glavniDiv">
            {/*<img src={slika} alt="" className="glavnaslika" />*/}
-
+        
             <h1>Higijena ljudi i prostora u kojem
         živite, naš je prioritet!</h1>
         <p className="glavniTekst">
@@ -18,6 +18,12 @@ const pocetna = () => {
         </p>
 
         <button className="saznajButton" onClick={vodiONama}> Saznajte više </button>
+
+        <div className="drugaboja">
+            <p>
+                fafsa
+            </p>
+        </div>
         </div>
         
 

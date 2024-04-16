@@ -39,26 +39,38 @@
   background-color: #0167FF;
 }
 .content {
-  margin:  auto;
-  padding: 70px;
-  margin-left: 1%;
+  
+ /*  background-image: url("D:\js projekti nextblink\lav\src\naslovna.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 630px 1080px; */
+}
+
+
+/* ---------------------POCETNA ---------------*/
+
+
+.glavniDiv{
   background-image: url("D:\js projekti nextblink\lav\src\naslovna.jpg");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 630px 1080px;
-  
+  padding: 70px;
+  margin-left: 1%;
 }
-.glavniDiv{
+.glavniDiv, .kontaktDiv, .onamaDiv, .uslugeDiv{
+padding: 70px;
+margin-left: 1%;
+}
 
-}
-.glavniDiv h1{
+ .glavniDiv h1{
  
   font-size: 50px;
   font-weight: bold;
   color: #1A1A1A;
   max-width: 60%;
 }
-.glavniDiv .glavniTekst
+.glavniTekst
 {
   font-size: 22px;
   padding-top: 5%;
@@ -83,4 +95,49 @@
   font-size: 25px;
   border-radius: 10px;
 
+}
+
+.drugaboja{
+  width: 1920;
+  height: 1080px;
+  background-color: #0167FF;
+  margin-top: 600px;
+
+}
+
+/* ---------------------O NAMA ---------------*/
+.onamaDiv{
+  background-image: url("D:\js projekti nextblink\repo\lav_nextblink\src\logoglava.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto 700px;
+
+  padding: 70px;
+  margin-left: 1%;
+}
+.onamaDiv h1
+{
+  margin-top:10px ;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1A1A1A;
+    max-width: 60%;
+}
+.onamaDrugiTekst{
+  text-align: right;
+}
+
+
+
+
+
+/*Kontakt*/
+
+
+.headersvih{
+  padding-left: 10px;
+  text-transform: uppercase;
+  border-left: solid #0167FF;
+  font-size: 22px;
+  
 }
