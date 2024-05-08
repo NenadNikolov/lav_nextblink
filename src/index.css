@@ -5,6 +5,11 @@
   font-family: Raleway;
   color: black;
 }
+.blue-text{
+  color:#0167FF;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .navbar {
   padding: 40px;
@@ -15,10 +20,11 @@
 
 .navbar .links {
   margin-left:auto;
-  margin-right: auto;    
+  margin-right: auto; 
 }
 .navbar .links :hover{
  background-color: #0167FF;
+
 }
 .navbar img{
   max-width: 100px;
@@ -37,8 +43,13 @@
 .navbar a:hover {
   color:  white;
   background-color: #0167FF;
+  padding-top: 70px;
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px; */
 }
 .content {
+  overflow-x: hidden;
   
  /*  background-image: url("D:\js projekti nextblink\lav\src\naslovna.jpg");
   background-repeat: no-repeat;
@@ -54,11 +65,11 @@
   background-image: url("D:\js projekti nextblink\lav\src\naslovna.jpg");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 630px 1080px;
+  background-size: 550px 700px;
   padding: 70px;
   margin-left: 1%;
 }
-.glavniDiv, .kontaktDiv, .onamaDiv, .uslugeDiv{
+.glavniDiv, .kontaktDiv, .onamaDiv, .uslugeDiv, .zaposlisediv{
 padding: 70px;
 margin-left: 1%;
 }
@@ -101,32 +112,86 @@ margin-left: 1%;
   width: 1920;
   height: 1080px;
   background-color: #0167FF;
-  margin-top: 600px;
+  margin-top: 250px;
 
 }
 
 /* ---------------------O NAMA ---------------*/
+
 .onamaDiv{
   background-image: url("D:\js projekti nextblink\repo\lav_nextblink\src\logoglava.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: auto 700px;
-
+  background-size: 800px 600px;
+  
+  width: 100vw;
   padding: 70px;
   margin-left: 1%;
 }
 .onamaDiv h1
 {
-  margin-top:10px ;
+    margin-top:10px ;
     font-size: 50px;
     font-weight: bold;
     color: #1A1A1A;
-    max-width: 60%;
+    max-width: 40%;
+    /*margin-right: 50px;*/
+ 
+
 }
-.onamaDrugiTekst{
-  text-align: right;
+.glavniTekst
+{
+  max-width: 50%;
+  line-height: 35px;
+  margin-right: 150px;
+  font-size: 22px;
+  font-weight: 500;
+ 
 }
 
+.onamaDrugidiv{
+  margin-top: 220px;
+  display: flex;
+  justify-content: space-between;
+  
+    
+}
+.krugslika
+{
+  max-width: 520px;
+  max-height: 300px;
+}
+
+.onamaDrugiTekst{
+ 
+  line-height: 35px;
+  font-size: 22px;
+  font-weight: 500;
+  max-width: 70%;
+  margin-right: 150px;
+  margin-left: 150px;
+  
+}
+
+.boldovaniText{
+  font-size: 45px;
+  color: #0167FF;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.uslugeOnamabutton{
+  margin-top: 5%;
+  width: 341px;
+  height:60px;
+  color: white;
+  background-color: #0167FF;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 150px;
+}
 
 
 
@@ -140,4 +205,69 @@ margin-left: 1%;
   border-left: solid #0167FF;
   font-size: 22px;
   
+}
+
+
+
+/* ---------------------ZAPOSLI SE ---------------*/
+.prvidivzaposlise{
+display: flex;
+justify-content: space-between;
+
+}
+.naslovZaposlise{
+  margin-top: 40px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #1A1A1A;
+  
+  
+}
+.levozaposlise{
+  max-width: 50%;
+}
+.desnozaposlise{
+  max-width: 50%;
+  margin-left: 50px;
+}
+.slikazaposlise{
+  max-width: 635px;
+  max-height: 425;
+}
+.textzaposlise
+{
+  font-size: 22px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+.prijaviseforma{
+  margin-left: 30%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.naslovprijavise{
+  font-size: 50px;
+  font-weight: bold;
+  color: #0167FF;
+}
+.formazaposlise
+{
+  max-width: 50%;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.svelabele{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.sviinputi{
+  margin-top: 10px;
+  height: 35px;
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 10px;
 }

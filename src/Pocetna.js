@@ -1,8 +1,9 @@
-import slika from './naslovna.jpg'
+import { Link } from 'react-router-dom';
+/* import slika from './naslovna.jpg' */
 const pocetna = () => {
     const vodiONama = ()=>
     {
-        console.log('odveo me jedan mangup')
+       <Link to="/onama"></Link>
     }
     return (  
         <div className="glavniDiv">
