@@ -11,6 +11,8 @@
   font-weight: bold;
 }
 
+/* ---------------------NAVBAR ---------------*/
+
 .navbar {
   padding: 40px;
   display: flex;
@@ -56,6 +58,103 @@
   background-position: top right;
   background-size: 630px 1080px; */
 }
+
+
+
+/* ---------------------FOOTER ---------------*/
+
+
+.footerglavnidiv{
+ 
+  margin-bottom: 30px;
+  padding-top: 25px;
+  border-top: 1px solid #707070;
+}
+.podebljantext{
+  font-weight: bold;
+}
+.gorefooter
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 67px;
+}
+.prvasekcijafooter
+{
+  display: flex;
+  flex-direction: column;
+}
+.logofooter
+{
+  max-width: 100px;
+  max-height: 100px;
+}
+.slikafooter
+{
+  max-width: 100px;
+  max-height: 100px;
+}
+.footerlinks
+{
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footertext{
+  margin-top: 15px;
+  font-size: 17px;
+}
+.ikonicasocijalne{
+  max-width: 100%;
+  max-height: 100%;
+}
+.socijalnemreze
+{
+  display: flex;
+  justify-content: center;
+  background-color: #0167FF;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  margin-right: 13px;
+  
+}
+.socijalnediv
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.ikonicasocijalne
+{
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.linkprekodiva
+{
+  width: 46px;
+  height: 46px;
+  position: absolute;
+}
+
+.dolefooter
+{
+  margin: 0 67px;
+  border-top: 1px solid #707070 ;
+  margin-top: 25px;
+}
+.dolefootertext
+{
+  text-align: center;
+  margin-top: 15px;
+  color: #707070;
+}
+
+
+
 
 
 /* ---------------------POCETNA ---------------*/
@@ -115,6 +214,10 @@ margin-left: 1%;
   margin-top: 250px;
 
 }
+
+
+
+
 
 /* ---------------------O NAMA ---------------*/
 
@@ -196,13 +299,15 @@ margin-left: 1%;
 
 
 
-/*Kontakt*/
+/* ---------------------KONTAKT ---------------*/
+
+
 
 
 .headersvih{
   padding-left: 10px;
   text-transform: uppercase;
-  border-left: solid #0167FF;
+  border-left: 4px solid #0167FF;
   font-size: 22px;
   
 }
@@ -232,7 +337,7 @@ justify-content: space-between;
 }
 .slikazaposlise{
   max-width: 635px;
-  max-height: 425;
+  max-height: 425px;
 }
 .textzaposlise
 {
@@ -259,7 +364,7 @@ justify-content: space-between;
   flex-direction: column;
 }
 .svelabele{
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 20px;
 }
 .sviinputi{
@@ -270,4 +375,111 @@ justify-content: space-between;
     border-radius: 10px;
     font-size: 25px;
     padding-left: 10px;
+}
+
+.zaposliseButton{
+  margin-top: 5%;
+ width: 100%;
+  height:60px;
+  color: white;
+  background-color: #0167FF;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+
+
+}
+.textareainputi
+{
+  max-width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+/* ---------------------USLUGE ---------------*/
+
+.prvidivusluge
+{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.desnouslugediv
+{
+  max-width: 50%;
+}
+.levouslugediv{
+  max-width: 50%;
+}
+
+.naslovUsluge
+{
+  margin-top: 30px;
+  font-size: 45px;
+  
+}
+
+.textUsluge
+{
+  font-size: 22px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.slikausluge
+{
+  margin-top: -20px;
+  max-width: 850px;
+  max-height: 428px;
+  margin-left: -50px;
+}
+
+.naslovuslugedrugasekcija
+{
+  font-size: 22px;
+  border-left: 4px solid #0167FF;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.textispodnaslovadrugesekcije
+{
+  max-width: 70%;
+  margin-top: 25px;
+}
+.levodrugasekcijausluge
+{
+  max-width: 30%;
+}
+
+.sekcijausluga
+{
+  margin-top: 150px;
+}
+  
+.neparnasekcija
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.drugasekcijaceo
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.levodrugasekcijauslugeparna
+{
+  margin-left: 20%;
+}
+.parneslike
+{
+  max-width: 50%;
+  max-width: 446px;
+  max-height: 305px;
+}
+.textispodnaslovadrugesekcijeparna{
+  margin-top: 20px;
 }

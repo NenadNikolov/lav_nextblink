@@ -16,6 +16,7 @@ import slikazaposlise from './mopovi.png'
                 <img src={slikazaposlise} alt="" className="slikazaposlise" />
             </div>
             </div>
+
             <div className="prijaviseforma">
 
                 <p className="naslovprijavise">
@@ -26,21 +27,30 @@ import slikazaposlise from './mopovi.png'
             <label className="svelabele">
                 Ime
             </label>
-            <input type="text" className="sviinputi" />
+            <input type="text" required='required' className="sviinputi" />
             <label className="svelabele">
                 Prezime
             </label>
-            <input type="text" className="sviinputi" />
+            <input type="text" required='required' className="sviinputi" />
             <label className="svelabele">
                 Telefon
             </label>
-            <input type="text" className="sviinputi" />
+            <input type="text" required='required' className="sviinputi" />
             <label className="svelabele">
                 Email
             </label>
-            <input type="mail" className="sviinputi" />
-         
-            <button>Posalji</button>
+            <input type="mail" required='required' className="sviinputi" />
+            <label className="svelabele">
+                Radno iskustvo
+            </label>
+            <textarea className='textareainputi' required='required'></textarea>
+            <label className="svelabele">
+                Vasa poruka
+            </label>
+            <textarea className='textareainputi' required='required'></textarea>
+
+            <button className="zaposliseButton">Prijavi se</button>
+
         </form>
             </div>
 
