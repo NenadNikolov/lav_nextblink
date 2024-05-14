@@ -21,7 +21,6 @@ const ZaposliSe = () => {
     console.log(form.current);
 
     emailjs
-
       .sendForm(
         "service_uphlj5e",
         "template_v87dius",
