@@ -215,7 +215,46 @@ margin-left: 1%;
 
 }
 
+.trecideopocetna
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.naslovpocetnatrecasekcija
+{
+  font-size: 35px;
+  font-weight: bold;
+}
 
+.textpocetnatrecasekcija
+{
+  max-width: 60%;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+#deo1
+{
+  margin-top: 100px;
+}
+.chekiraneprednosti
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.textchekiraneprednosti
+{
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.slikacheck
+{
+  max-width: 27px;
+  max-height: 27px;
+}
 
 
 
@@ -303,6 +342,40 @@ margin-left: 1%;
 
 
 
+.prvideoKontakt
+{
+  display: flex;
+  flex-direction: row;
+}
+.levozaposlise
+{
+  max-width: 50%;
+
+}
+
+.naslovKontakt
+{
+  margin-top: 40px;
+  font-size: 45px;
+}
+.desnokontakt{
+  max-width: 50%;
+}
+
+.slikakontakt
+{
+  margin-right: -100px;
+  max-width: 604px;
+  max-height: 485px;
+}
+
+.textKontakt
+{
+  font-size: 22px;
+    margin-top: 50px;
+    font-weight: 500;
+    padding-right: 150px;
+}
 
 .headersvih{
   padding-left: 10px;
@@ -310,6 +383,42 @@ margin-left: 1%;
   border-left: 4px solid #0167FF;
   font-size: 22px;
   
+}
+
+.drugidivkontakt
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #0167FF;
+  margin-left: -200px;
+  width: 1800px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.drdeodesno
+{
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.slikakontakt2
+{
+  margin-top: 100px;
+  margin-left: 400px;
+  max-width: 320px;
+  max-height: 320px;
+}
+.drdeonaslov{
+  color: white;
+  font-size: 45px;
+  margin-top: 20px;
+}
+.drdeotext
+{
+  margin-top: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
 }
 
 
@@ -356,7 +465,7 @@ justify-content: space-between;
   font-weight: bold;
   color: #0167FF;
 }
-.formazaposlise
+.forma
 {
   max-width: 50%;
  

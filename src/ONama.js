@@ -6,12 +6,12 @@ const ONama = () => {
         <p className="headersvih">Deo nase price</p>
         <h1>O nama</h1>
         <p className="glavniTekst">
-        Agencija <span class="blue-text">LAV </span>pruža usluge čišćenja stambenih i poslovnih objekata na teritoriji grada Niša. 
-        Tim ljudi je tu da Vam pruži prijatno iskustvo<span class="blue-text"> uz profesionalnu uslugu </span> čišćenja visokog kvaliteta. 
+        Agencija <span className="blue-text">LAV </span>pruža usluge čišćenja stambenih i poslovnih objekata na teritoriji grada Niša. 
+        Tim ljudi je tu da Vam pruži prijatno iskustvo<span className="blue-text"> uz profesionalnu uslugu </span> čišćenja visokog kvaliteta. 
         Iskustvo, kvalitet i naša oprema je ono čime možemo da se pohvalimo a na Vama je da se u to i uverite.
          Agencija LAV je posvećena pružanju usluga visokog kvaliteta u polju čišćenja objekata sa posebnim uslugama koje nudimo 
-         i po tome znamo da smo<span class="blue-text"> JEDINSTVENI</span>.
-         Usluge čišćenja su Vam na raspolaganju <span class="blue-text">365 dana godišnje </span> .
+         i po tome znamo da smo<span className="blue-text"> JEDINSTVENI</span>.
+         Usluge čišćenja su Vam na raspolaganju <span className="blue-text">365 dana godišnje </span> .
         </p>
         <div className="onamaDrugidiv">
             <img src={slika} alt="" className="krugslika"/>

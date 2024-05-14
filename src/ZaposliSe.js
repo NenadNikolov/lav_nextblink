@@ -1,6 +1,6 @@
  
 import { useState } from 'react';
-import slikazaposlise from './mopovi.png'
+import slikazaposlise from './mopovi.png';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -23,9 +23,7 @@ import emailjs from 'emailjs-com';
         e.preventDefault();
 
         emailjs
-          .sendForm('service_uphlj5e', 'template_v87dius', form.current, {
-            publicKey: '-ps61StphoCzr9LWJ',
-          })
+          .sendForm('service_uphlj5e', 'template_v87dius', form.current, 'soqTNlVOlV1a_3stJ')
           .then(
             () => {
               console.log('SUCCESS!');
@@ -63,7 +61,7 @@ import emailjs from 'emailjs-com';
                     Prijava za posao
                 </p>
 
-            <form className='formazaposlise' ref={form} onSubmit={handlePosao}>
+            <form className='forma' ref={form} onSubmit={handlePosao}>
             <label className="svelabele">
                 Ime
             </label>

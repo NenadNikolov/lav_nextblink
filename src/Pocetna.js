@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
 /* import slika from './naslovna.jpg' */
+import slika3sekcija from './pocetna2slika.png';
+import checkirano from './check.png';
+
+
 const pocetna = () => {
     const vodiONama = ()=>
     {
@@ -25,6 +29,69 @@ const pocetna = () => {
                 fafsa
             </p>
         </div>
+
+        <div className="trecideopocetna">
+            <div className="desno3sekcijapocetna">
+            <h2 className="naslovpocetnatrecasekcija">
+            Zašto baš mi?
+            </h2>
+            <p className="textpocetnatrecasekcija">Za uspeh naših usluga nisu zaslužni samo visok kvalitet i ljubaznost našeg osoblja, već i preporuke naših zadovoljnih klijenata</p>
+       
+            <div className="chekiraneprednosti" id="deo1">
+                <img src={checkirano} alt="" className="slikacheck" />
+                <p className="textchekiraneprednosti">
+                Naša rešenja su kompletna
+                </p>
+            </div>
+
+            <div className="chekiraneprednosti">
+                <img src={checkirano} alt="" className="slikacheck"/>
+                <p className="textchekiraneprednosti">
+                Nama se veruje
+                </p>
+            </div>
+            <div className="chekiraneprednosti">
+                <img src={checkirano} alt="" className="slikacheck"/>
+                <p className="textchekiraneprednosti">
+                Brza i efikasna usluga
+                </p>
+            </div>
+
+            <div className="chekiraneprednosti">
+                <img src={checkirano} alt="" className="slikacheck"/>
+                <p className="textchekiraneprednosti">
+                Zagarantovan kvalitet
+                </p>
+            </div>
+
+            <div className="chekiraneprednosti">
+                <img src={checkirano} alt="" className="slikacheck"/>
+                <p className="textchekiraneprednosti">
+                Stručno opremljeni radnici
+                </p>
+            </div>
+
+            <div className="chekiraneprednosti">
+                <img src={checkirano} alt="" className="slikacheck"/>
+                <p className="textchekiraneprednosti">
+                Profesionalna oprema
+                </p>
+            </div>
+
+            <div className="chekiraneprednosti">
+                <img src={checkirano} alt="" className="slikacheck" />
+                <p className="textchekiraneprednosti">
+                Dostupnost informacija 24/7
+                </p>
+            </div>
+
+
+
+            </div>
+            <div className="levo3sekcijapocetna">
+                <img src={slika3sekcija } alt="" />
+            </div>
+            </div>
         </div>
         
 
