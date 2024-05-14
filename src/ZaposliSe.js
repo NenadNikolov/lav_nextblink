@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import slikazaposlise from './mopovi.png'
 import React, { useRef } from 'react';
-
+import emailjs from 'emailjs-com';
 
 
  const ZaposliSe = () => {
@@ -13,29 +13,32 @@ import React, { useRef } from 'react';
     const [email,setEmail] = useState('');
     const [iskustvo,setIskustvo] = useState('');
     const [poruka,setPoruka] = useState('');
+    
     const form = useRef();
 
     const handlePosao = (e)=>
     {
+        const posao = {ime, prezime, telefon, email, iskustvo, poruka};
+    
         e.preventDefault();
 
-        const posao = {ime, prezime, telefon, email, iskustvo, poruka};
-
-       {/* emailjs
-        .sendForm('service_lavreact', 'template_lavreact', form.current, {
-          publicKey: 'BHjaNK40fhxDNer55',
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
-    */}
+        emailjs
+          .sendForm('service_uphlj5e', 'template_v87dius', form.current, {
+            publicKey: '-ps61StphoCzr9LWJ',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+      
+        e.target.reset()
+    
         console.log(posao);
-    }
+    };
 
 
     return (  
@@ -65,6 +68,7 @@ import React, { useRef } from 'react';
                 Ime
             </label>
             <input type="text" required='required' className="sviinputi" 
+                name="ime"
                 value={ime}
                 onChange={(e) => setIme(e.target.value)}
             />
@@ -74,6 +78,7 @@ import React, { useRef } from 'react';
                 Prezime
             </label>
             <input type="text" required='required' className="sviinputi"
+            name="prezime"
             value={prezime}
             onChange={(e) => setPrezime(e.target.value)}
              />
@@ -83,6 +88,7 @@ import React, { useRef } from 'react';
                 Telefon
             </label>
             <input type="text" required='required' className="sviinputi"
+            name="telefon"
             value={telefon}
             onChange={(e) => setTelefon(e.target.value)}
             />
@@ -92,6 +98,7 @@ import React, { useRef } from 'react';
                 Email
             </label>
             <input type="mail" required='required' className="sviinputi"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             />
@@ -101,6 +108,7 @@ import React, { useRef } from 'react';
                 Radno iskustvo
             </label>
             <textarea className='textareainputi' required='required'
+            name="iskustvo"
             value={iskustvo}
             onChange={(e) => setIskustvo(e.target.value)}
             ></textarea>
@@ -110,15 +118,17 @@ import React, { useRef } from 'react';
                 Vasa poruka
             </label>
             <textarea className='textareainputi' required='required'
+            name="poruka"
             value={poruka}
             onChange={(e) => setPoruka(e.target.value)}
             ></textarea>
 
-            <button className="zaposliseButton">Prijavi se</button>
+           
+            <button className="zaposliseButton" value="Send" type="submit">Prijavi se</button>
 
         </form>
             </div>
-        <p>{ime}</p>
+       
           
         </div>
     );
